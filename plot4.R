@@ -50,7 +50,7 @@ with(data,{
   plot(Date_Time,Sub_metering_1,type = "l",xlab = "",ylab = "Energy sub metering")
   lines(Date_Time,Sub_metering_2,col="red")
   lines(Date_Time,Sub_metering_3,col="blue")
-  legend("topright",lty = c(1,1,1) ,legend = c("Sub_metering_1","Sub_metering_2","Sub_metering_3"),col = c("black","red","blue"))
+  legend("topright",lty = c(1,1,1) ,legend = c("Sub_metering_1","Sub_metering_2","Sub_metering_3"),bty = "n", col = c("black","red","blue"))
   
   # creating plot 3
   plot(Date_Time,Voltage,type = "l",xlab="datetime",ylab="Voltage")
